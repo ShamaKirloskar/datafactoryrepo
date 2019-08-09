@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://weu-devt-bis-keyvault.vault.azure.net/"
+			"baseUrl": "https://weu-devt-ana-keyvault.vault.azure.net/"
 		}
 	}
 }
