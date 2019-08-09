@@ -1,0 +1,12 @@
+{
+	"name": "ETADMIN11",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/64ffab55-df76-4cd7-aeff-87abd0e69cbd/resourcegroups/adjunodatafactories/providers/Microsoft.DataFactory/factories/uksuatdatafactories01/integrationruntimes/etadmin11",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
