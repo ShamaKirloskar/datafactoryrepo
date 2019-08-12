@@ -12,7 +12,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": {
-					"value": "@concat(pipeline().Pipeline)",
+					"value": "@concat(pipeline().Pipeline, formatDateTime('2015-03-15T13:27:36Z', 'o'))",
 					"type": "Expression"
 				},
 				"folderPath": "Raw",
