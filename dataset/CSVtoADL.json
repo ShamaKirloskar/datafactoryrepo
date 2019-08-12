@@ -1,5 +1,5 @@
 {
-	"name": "CSV",
+	"name": "CSVtoADL",
 	"properties": {
 		"description": "will create the csv file and store it in the ADL",
 		"linkedServiceName": {
