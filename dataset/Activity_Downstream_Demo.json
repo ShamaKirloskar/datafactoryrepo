@@ -1,0 +1,15 @@
+{
+	"name": "Activity_Downstream_Demo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Downstream_Demo",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "On-Prem DB"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
