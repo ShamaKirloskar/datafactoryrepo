@@ -11,6 +11,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat(pipeline().Pipeline)",
+					"type": "Expression"
+				},
 				"folderPath": "Raw",
 				"fileSystem": "atheon"
 			},
