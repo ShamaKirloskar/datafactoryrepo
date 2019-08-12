@@ -1,0 +1,17 @@
+{
+	"name": "Downstream_Demo",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=ETPRODSQL51;initial catalog=Activity_Downstream_demo",
+			"userName": "set\\dwest",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiMWM5OTEyOC1jYWFjLTQ3MmUtYjIxMy0zNGI5YWUxMThiZTAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "ETADMIN11",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
